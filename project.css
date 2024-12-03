@@ -11,6 +11,17 @@
     background-color: rgb(58, 57, 57);
     
 }
+
+.sidebar >*:nth-child(n+3) >:last-child >:last-child{ 
+    cursor: pointer;
+    border: 1px solid;
+    color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .header {
     height: 15%;
     width: 100%;
